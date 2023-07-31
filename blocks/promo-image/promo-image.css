@@ -1,0 +1,11 @@
+.promo-image {
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+  max-width: 100%;
+}
+
+.promo-image:nth-of-type(1) {
+  margin-right: 20px;
+  margin-top: 60px;
+}
