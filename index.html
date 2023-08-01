@@ -13,7 +13,6 @@
 
 <body>
   <div class="pages">
-
     <header class="header">
         <div class="content-container">
             <a href="index.html" class="logo">
@@ -21,11 +20,11 @@
             </a>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__list-item"><a href="#" class="nav__item-link">Каталог</a></li>
-                    <li class="nav__list-item"><a href="#" class="nav__item-link">Доставка и оплата</a></li>
-                    <li class="nav__list-item"><a href="#" class="nav__item-link">Отзывы</a></li>
-                    <li class="nav__list-item"><a href="#" class="nav__item-link">Спецпредложения</a></li>
-                    <li class="nav__list-item"><a href="#" class="nav__item-link">Контакты</a></li>
+                    <li class="nav__list-item"><a href="#type" class="nav__item-link">Каталог</a></li>
+                    <li class="nav__list-item"><a href="#steps" class="nav__item-link">Доставка и оплата</a></li>
+                    <li class="nav__list-item"><a href="#reviews" class="nav__item-link">Отзывы</a></li>
+                    <li class="nav__list-item"><a href="#sale" class="nav__item-link">Спецпредложения</a></li>
+                    <li class="nav__list-item"><a href="#contacts" class="nav__item-link">Контакты</a></li>
                     <li class="nav__list-item"><a href="#" class="nav__item-link">Корзина</a></li>
                 </ul>
             </nav>
@@ -74,7 +73,6 @@
             </div>
         </section>
 
-
         <section class="popular">
             <h2 class="popular__title">Популярные букеты</h2>
             <div class="popular__container">
@@ -113,7 +111,7 @@
             </div>
         </section>
 
-        <section class="type">
+        <section class="type" id="type">
             <div class="type__container">
                 <ul class="type__list">
                     <li class="type__item" style="background-image: url(images/select-1.jpg)">
@@ -138,7 +136,7 @@
             </div>
         </section>
 
-        <section class="sale">
+        <section class="sale" id="sale">
             <div class="sale__container">
                 <div class="sale__block">
                     <div class="sale__text-block">
@@ -151,8 +149,7 @@
             </div>
         </section>
 
-
-        <section class="steps">
+        <section class="steps" id="steps">
             <div class="steps__container">
                 <h2 class="steps__heading">4 шага к идеальному букету</h2>
                 <ul class="steps__list">
@@ -181,9 +178,80 @@
             </div>
         </section>
 
+        <section class="reviews" id="reviews">
+            <div class="reviews__container">
+                <h2 class="reviews__heading">Отзывы</h2>
+                <ul class="reviews__list">
+                    <li class="reviews__item">
+                        <blockquote class="reviews__blockquote">Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!</blockquote>
+                        <cite class="reviews__cite">Марина</cite>
+                    </li>
+                    <li class="reviews__item">
+                        <blockquote class="reviews__blockquote">Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!</blockquote>
+                        <cite class="reviews__cite">Татьяна</cite>
+                    </li>
+                    <li class="reviews__item">
+                        <blockquote class="reviews__blockquote">Выбор букетов на любой вкус
+                            и цену. Бывают хорошие скидки,
+                            а флористы всегда помогут и точно соберут красивый букет!</blockquote>
+                        <cite class="reviews__cite">Ольга</cite>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="map">
+            <img src="./images/map.jpg" alt="Карта" class="map__image">
+            <div class="map__container">
+                <div class="contacts">
+                    <h2 class="contacts__heading" id="contacts">Мы ждем вас</h2>
+                    <dl class="contacts__dl">
+                        <dt class="contacts__dt">Приходите к нам:</dt>
+                        <dd class="contacts__dd">Санкт-Петербург, <br>
+                            ул. Большая Конюшенная, 19</dd>
+
+                        <dt class="contacts__dt">Режим работы:</dt>
+                        <dd class="contacts__dd">Пн-Вск, с 9-00 до 20-00</dd>
+
+                        <dt class="contacts__dt">Позвоните нам:</dt>
+                        <dd class="contacts__dd"><a href="tel:88129834719" class="contacts__info">+ 7 (812) 983-47-19</a></dd>
+
+                        <dt class="contacts__dt">Напишите нам:</dt>
+                        <dd class="contacts__dd"><a href="mailto:info@botanika.ru" class="contacts__info">info@botanika.ru</a></dd>
+                    </dl>
+                </div>
+            </div>
+        </section>
     </main>
 
-  </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <a href="index.html" class="footer__logo">
+                <img src="./images/logo-invers.svg" alt="Логотип студии botanika" class="footer__logo-img">
+            </a>
+            <nav class="footer-nav">
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__item">
+                        <a href="#type" class="footer-nav__link">Каталог</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#steps" class="footer-nav__link">Доставка и оплата</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#reviews" class="footer-nav__link">Отзывы</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#sale" class="footer-nav__link">Спецпредложения</a>
+                    </li>
+                    <li class="footer-nav__item">
+                        <a href="#contacts" class="footer-nav__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    </div>
 </body>
 
 </html>

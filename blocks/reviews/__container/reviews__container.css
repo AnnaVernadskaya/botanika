@@ -1,6 +1,7 @@
 .reviews__container {
   margin: 0 auto;
   width: 1200px;
-  padding: 0 10px;
-  display: flex;
+  border: 1px solid #AE7C78;
+  padding: 40px 44px 64px;
+  box-sizing: border-box;
 }

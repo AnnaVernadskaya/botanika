@@ -75,3 +75,30 @@
 @import '../blocks/steps/__image-card/steps__image-card.css';
 @import '../blocks/steps/__image-laptop/steps__image-laptop.css';
 @import '../blocks/steps/__image-man/steps__image-man.css';
+
+@import '../blocks/reviews/reviews.css';
+@import '../blocks/reviews/__container/reviews__container.css';
+@import '../blocks/reviews/__heading/reviews__heading.css';
+@import '../blocks/reviews/__list/reviews__list.css';
+@import '../blocks/reviews/__item/reviews__item.css';
+@import '../blocks/reviews/__blockquote/reviews__blockquote.css';
+@import '../blocks/reviews/__cite/reviews__cite.css';
+
+@import '../blocks/map/map.css';
+@import '../blocks/map/__image/map__image.css';
+@import '../blocks/map/__container/map__container.css';
+@import '../blocks/contacts/contacts.css';
+@import '../blocks/contacts/__heading/contacts__heading.css';
+@import '../blocks/contacts/__dl/contacts__dl.css';
+@import '../blocks/contacts/__dt/contacts__dt.css';
+@import '../blocks/contacts/__dd/contacts__dd.css';
+@import '../blocks/contacts/__info/contacts__info.css';
+
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__container/footer__container.css';
+@import '../blocks/footer/__logo/footer__logo.css';
+@import '../blocks/footer/__logo-img/footer__logo-img.css';
+@import '../blocks/footer-nav/footer-nav.css';
+@import '../blocks/footer-nav/__list/footer-nav__list.css';
+@import '../blocks/footer-nav/__item/footer-nav__item.css';
+@import '../blocks/footer-nav/__link/footer-nav__link.css';

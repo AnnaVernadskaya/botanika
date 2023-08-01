@@ -1,0 +1,13 @@
+.contacts {
+  margin-left: 102px;
+  max-width: 386px;
+  padding: 40px 108px 65px 35px;
+  font-size: 16px;
+  line-height: 20px;
+  background: #F7FAFC;
+  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  border-radius: 12px;
+  z-index: 2;
+  position: relative;
+  box-sizing: border-box;
+}
