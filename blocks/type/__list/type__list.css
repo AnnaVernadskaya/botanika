@@ -1,0 +1,8 @@
+.type__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  grid-template-rows: 442px;
+  padding: 0;
+}

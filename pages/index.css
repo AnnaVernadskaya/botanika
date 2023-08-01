@@ -1,6 +1,7 @@
 @import '../vendor/normalize.css';
 
 @import '../blocks/pages/pages.css';
+@import '../blocks/button/button.css';
 
 @import '../blocks/header/header.css';
 @import '../blocks/content-container/content-container.css';
@@ -28,17 +29,49 @@
 @import '../blocks/advantages/__image/advantages__image.css';
 @import '../blocks/advantages-block/__title/advantages-block__title.css';
 @import '../blocks/advantages-block/__text/advantages-block__text.css';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
-@import '';
+
+@import '../blocks/popular/popular.css';
+@import '../blocks/popular/__title/popular__title.css';
+@import '../blocks/popular/__container/popular__container.css';
+@import '../blocks/popular/__slider-list/popular__slider-list.css';
+@import '../blocks/popular/__slide/popular__slide.css';
+@import '../blocks/popular/__slide-block/popular__slide-block.css';
+@import '../blocks/popular/__slide-heading/popular__slide-heading.css';
+@import '../blocks/popular/__slide-text/popular__slide-text.css';
+@import '../blocks/popular/__slide-size/popular__slide-size.css';
+@import '../blocks/popular/__slide-price/popular__slide-price.css';
+@import '../blocks/popular/__slide-button/popular__slide-button.css';
+@import '../blocks/popular/__slide-image/popular__slide-image.css';
+@import '../blocks/popular/__slider-nav/popular__slider-nav.css';
+@import '../blocks/popular/__slide-button/popular__slide-button.css';
+@import '../blocks/popular/__slider-button/popular__slider-button.css';
+
+@import '../blocks/type/type.css';
+@import '../blocks/type/__container/type__container.css';
+@import '../blocks/type/__list/type__list.css';
+@import '../blocks/type/__item/type__item.css';
+@import '../blocks/type/__link/type__link.css';
+@import '../blocks/type/__heading/type__heading.css';
+@import '../blocks/type/__text/type__text.css';
+
+
+@import '../blocks/sale/sale.css';
+@import '../blocks/sale/__container/sale__container.css';
+@import '../blocks/sale/__block/sale__block.css';
+@import '../blocks/sale/__text-block/sale__text-block.css';
+@import '../blocks/sale/__heading/sale__heading.css';
+@import '../blocks/sale/__text/sale__text.css';
+@import '../blocks/sale/__image/sale__image.css';
+
+
+@import '../blocks/steps/steps.css';
+@import '../blocks/steps/__container/steps__container.css';
+@import '../blocks/steps/__heading/steps__heading.css';
+@import '../blocks/steps/__list/steps__list.css';
+@import '../blocks/steps/__item/steps__item.css';
+@import '../blocks/steps/__subheading/steps__subheading.css';
+@import '../blocks/steps/__text/steps__text.css';
+@import '../blocks/steps/__imag-auto/steps__imag-auto.css';
+@import '../blocks/steps/__image-card/steps__image-card.css';
+@import '../blocks/steps/__image-laptop/steps__image-laptop.css';
+@import '../blocks/steps/__image-man/steps__image-man.css';

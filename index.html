@@ -33,14 +33,13 @@
     </header>
 
     <main>
-
         <section class="promo">
             <div class="promo__container">
                 <div class="promo__content">
                     <h1 class="promo__heading">Авторские букеты <span class="promo__heading-italics">в Петербурге</span></h1>
                     <p class="promo__text">Оригинальные свежие букеты
                         с доставкой по всему городу</p>
-                    <a href="#" class="promo__button">Смотреть каталог</a>
+                    <a href="#" class="promo__button button">Смотреть каталог</a>
                 </div>
                 <img src="./images/promo-1.jpg" alt="Букет розовых тюльпанов" class="promo-image image-tulip">
                 <img src="./images/promo-2.jpg" alt="Букет с розовыми розами и гвоздиками" class="promo-image image-rose">
@@ -75,9 +74,116 @@
             </div>
         </section>
 
+
+        <section class="popular">
+            <h2 class="popular__title">Популярные букеты</h2>
+            <div class="popular__container">
+                <div class="popular__slider">
+                    <ul class="popular__slider-list">
+                        <li class="popular__slide">
+                            <div class="popular__slide-block">
+                                <h3 class="popular__slide-heading">Букет «Нежность»</h3>
+                                <p class="popular__slide-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                                <p class="popular__slide-size">30 × 40 см</p>
+                                <p class="popular__slide-price">3600 руб.</p>
+                                <a href="#" class="button popular__slide-button">Заказать</a>
+                            </div>
+                            <img src="./images/popular.png" alt="Букет белых цветов" class="popular__slide-image">
+                        </li>
+                        <li class="popular__slide">
+                            <div class="popular__slide-block">
+                                <h3 class="popular__slide-heading">Букет «Нежность»</h3>
+                                <p class="popular__slide-text">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                                <p class="popular__slide-size">30 × 40 см</p>
+                                <p class="popular__slide-price">3600 руб.</p>
+                                <a href="#" class="button popular__slide-button">Заказать</a>
+                            </div>
+                            <img src="./images/popular.png" alt="Букет белых цветов" class="popular__slide-image">
+                        </li>
+                    </ul>
+                    <div class="popular__slider-nav">
+                        <button class="popular__slider-button previous" type="button">
+                            <img src="./images/arrow-left.svg" alt="Стрелка влево" width="50">
+                        </button>
+                        <button class="popular__slider-button next" type="button">
+                            <img src="./images/arrow-right.svg" alt="Стрелка вправо" width="50">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="type">
+            <div class="type__container">
+                <ul class="type__list">
+                    <li class="type__item" style="background-image: url(images/select-1.jpg)">
+                        <a href="#" class="type__link">
+                            <h3 class="type__heading">Свадебные букеты</h3>
+                            <p class="type__text">Букеты для невест</p>
+                        </a>
+                    </li>
+                    <li class="type__item" style="background-image: url(images/select-2.jpg)">
+                        <a href="#" class="type__link">
+                            <h3 class="type__heading">Букеты с пионами</h3>
+                            <p class="type__text">Букеты с сезонными пионами</p>
+                        </a>
+                    </li>
+                    <li class="type__item" style="background-image: url(images/select-3.jpg)">
+                        <a href="#" class="type__link">
+                            <h3 class="type__heading">Выбрать букет</h3>
+                            <p class="type__text">Букеты в ассортименте</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="sale">
+            <div class="sale__container">
+                <div class="sale__block">
+                    <div class="sale__text-block">
+                        <h2 class="sale__heading">Скидка 10%
+                            на&nbsp;первый заказ</h2>
+                        <p class="sale__text">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+                    </div>
+                    <img src="./images/sale.jpg" alt="Букет из роз и гвоздики в крафтовой обертке" class="sale__image">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="steps">
+            <div class="steps__container">
+                <h2 class="steps__heading">4 шага к идеальному букету</h2>
+                <ul class="steps__list">
+                    <li class="steps__item">
+                        <img src="./images/step-1.svg" alt="Иконка ноутбука" class="steps__image-laptop">
+                        <h3 class="steps__subheading">Заказ</h3>
+                        <p class="steps__text">Выбирите понравившейся букет из каталога и оформите заказ</p>
+                    </li>
+                    <li class="steps__item">
+                        <img src="./images/step-2.svg" alt="Иконка человека" class="steps__image-man">
+                        <h3 class="steps__subheading">Уточнение деталей</h3>
+                        <p class="steps__text">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
+                    </li>
+                    <li class="steps__item">
+                        <img src="./images/step-3.svg" alt="Иконка банковской карты" class="steps__image-card">
+                        <h3 class="steps__subheading">Оплата</h3>
+                        <p class="steps__text">Оплатить заказ можно онлайн
+                            на сайте или при получении</p>
+                    </li>
+                    <li class="steps__item">
+                        <img src="./images/advantage-1.svg" alt="Иконка грузовика" class="steps__imag-auto">
+                        <h3 class="steps__subheading">Доставка</h3>
+                        <p class="steps__text">Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
-</div>
+  </div>
 </body>
 
 </html>
