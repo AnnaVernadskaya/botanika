@@ -1,5 +1,48 @@
 .footer {
-  background: #AE7C78;
+  background: var(--main-color, #AE7C78);
   color: #FFFFFF;
   padding: 21px 0 38px;
+}
+
+.footer__container {
+  display: flex;
+}
+
+.footer__logo {
+  position: static;
+  transform: none;
+  margin-left: 50px;
+  margin-right: 103px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+.footer-nav__item {
+  margin-right: 68px;
+}
+
+.footer-nav__link {
+  color: var(--light-color, #FFFFFF);
+  text-decoration: none;
+}
+
+.footer-nav__link:hover {
+  opacity: 0.7;
+}
+
+.footer-nav__link:focus,
+.footer-nav__link:active {
+  opacity: 0.2;
+}
+
+.footer-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 19px;
 }

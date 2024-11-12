@@ -1,3 +1,31 @@
+/* Основные зависимости */
+@import '../vendor/normalize.css';
+@import '../vendor/fonts/fonts.css';
+
+/* Главные блоки и страницы */
+@import '../blocks/pages/pages.css';
+@import '../blocks/variables.css';
+@import '../blocks/container/container.css';
+@import '../blocks/button/button.css';
+@import '../blocks/header/header.css';
+@import '../blocks/nav/nav.css'; /* Включает все элементы навигации */
+@import '../blocks/logo/logo.css';
+
+/* Остальные блоки */
+@import '../blocks/promo/promo.css';
+@import '../blocks/advantages/advantages.css';
+@import '../blocks/popular/popular.css';
+@import '../blocks/type/type.css';
+@import '../blocks/sale/sale.css';
+@import '../blocks/steps/steps.css';
+@import '../blocks/reviews/reviews.css';
+@import '../blocks/map/map.css';
+@import '../blocks/contacts/contacts.css';
+@import '../blocks/footer/footer.css';
+
+
+
+/*
 @import '../vendor/normalize.css';
 @import '../vendor/fonts/fonts.css';
 
@@ -101,3 +129,4 @@
 @import '../blocks/footer-nav/__list/footer-nav__list.css';
 @import '../blocks/footer-nav/__item/footer-nav__item.css';
 @import '../blocks/footer-nav/__link/footer-nav__link.css';
+*/

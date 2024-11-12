@@ -1,3 +1,36 @@
 .sale {
   margin-bottom: 80px;
 }
+
+.sale__block {
+  background: var(--main-color, #AE7C78);
+  display: flex;
+}
+
+.sale__heading {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 59px;
+  letter-spacing: 0.02em;
+  color: var(--light-color, #FFFFFF);
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.sale__image {
+  width: 590px;
+  height: 391;
+}
+
+.sale__text {
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--light-color, #FFFFFF);
+  margin: 0;
+  max-width: 387px;
+}
+
+.sale__text-block {
+  padding: 40px 22px 64px 102px;
+}

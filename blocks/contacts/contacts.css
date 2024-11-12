@@ -4,10 +4,42 @@
   padding: 40px 108px 65px 35px;
   font-size: 16px;
   line-height: 20px;
-  background: #F7FAFC;
-  box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+  background: var(--light-bg-color, #F7FAFC);
+  box-shadow: 0px 4px 5vw var(--shadow-color-light, rgba(217, 217, 217, 0.3));
   border-radius: 12px;
   z-index: 2;
   position: relative;
   box-sizing: border-box;
+}
+
+.contacts__dd {
+  font-weight: 500;
+  margin-bottom: 28px;
+  margin-left: 0;
+}
+
+.contacts__dd:last-child {
+  margin: 0;
+}
+
+.contacts__dl {
+  margin: 0;
+}
+
+.contacts__dt {
+  margin-bottom: 17px;
+}
+
+.contacts__heading {
+  font-family: var(--font-secondary, "Playfair Display", "Times New Roman", serif);
+  font-weight: bold;
+  font-size: var(--font-size-lg, 36px);
+  line-height: var(--line-height-lg, 48px);
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+.contacts__info {
+  color: var(--main-color, #AE7C78);
+  text-decoration: none;
 }

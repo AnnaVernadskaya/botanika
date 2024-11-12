@@ -2,3 +2,52 @@
   padding-top: 82px;
   padding-bottom: 31px;
 }
+
+.promo-image {
+  border-radius: 10px;
+  display: block;
+  height: 100%;
+  max-width: 100%;
+}
+
+.promo-image:nth-of-type(1) {
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+.promo__button {
+  text-decoration: none;
+}
+
+.promo__container {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 10px;
+  display: flex;
+}
+
+.promo__content {
+  max-width: 384px;
+  margin-right: 23px;
+}
+
+.promo__heading {
+  font-family: "Playfair Display", "Times New Roman", serif;
+  font-size: 44px;
+  line-height: 59px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+.promo__heading-italics {
+  font-style: italic;
+}
+
+.promo__text {
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 0;
+  margin-bottom: 64px;
+}
+

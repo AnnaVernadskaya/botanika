@@ -1,8 +1,0 @@
-.popular__slide {
-  align-items: flex-start;
-  display: none;
-}
-
-.popular__slide:nth-child(1) {
-  display: flex;
-}

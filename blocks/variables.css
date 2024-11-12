@@ -1,0 +1,15 @@
+:root {
+  --main-color: #AE7C78;
+  --light-color: #FFFFFF;
+  --secondary-accent-color: #D89999;
+  --light-bg-color: #F7FAFC;
+  --dark-color: #000000;
+  --shadow-color-light: rgba(217, 217, 217, 0.3);
+  --text-shadow-color: #9d822b;
+  --overlay-color-light: rgba(174, 124, 120, 0.6);
+  --overlay-color-dark: rgba(174, 124, 120, 0.8);
+  --font-main: "Montserrat", Arial, sans-serif;
+  --font-secondary: "Playfair Display", "Times New Roman", serif;
+  --font-size-lg: 2.25rem;
+  --line-height-lg: 3rem;
+}

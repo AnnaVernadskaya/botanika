@@ -1,7 +1,7 @@
 .button {
-    background: #D89999;
+    background: var(--secondary-accent-color, #D89999);
     border-radius: 40px;
-    color: #FFFFFF;
+    color: var(--light-color, #FFFFFF);
     padding: 30px 70px;
     display: inline-block;
     vertical-align: middle;
@@ -16,4 +16,3 @@
 .button:active {
     opacity: 0.5;
 }
-

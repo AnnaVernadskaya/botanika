@@ -1,3 +1,32 @@
 .advantages {
   margin-bottom: 80px;
 }
+
+.advantages__image {
+  margin-right: 20px;
+}
+
+.advantages__item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.advantages__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4%;
+  padding: 0;
+}
+
+.advantages-block__text {
+  margin: 0;
+}
+
+.advantages-block__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}

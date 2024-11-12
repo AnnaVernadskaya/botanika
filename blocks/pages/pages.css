@@ -2,8 +2,8 @@
   min-width: 1220px;
   font-size: 16px;
   line-height: 20px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: var(--font-main, "Montserrat", Arial, sans-serif);
   font-weight: normal;
-  color: #AE7C78;
-  background: #FFFFFF;
+  color: var(--main-color, #AE7C78);
+  background: var(--light-color, #FFFFFF);
 }
